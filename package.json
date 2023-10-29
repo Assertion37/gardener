@@ -1,0 +1,28 @@
+{
+  "name": "gardener",
+  "version": "0.0.1",
+  "description": "code traversal library",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Assertion37/gardener.git"
+  },
+  "author": "asyong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Assertion37/gardener/issues"
+  },
+  "homepage": "https://github.com/Assertion37/gardener#readme",
+  "dependencies": {
+    "tree-sitter": "^0.20.6",
+    "tree-sitter-javascript": "^0.20.1",
+    "web-tree-sitter": "^0.20.8"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.8"
+  }
+}
